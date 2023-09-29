@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Cloning</title>
+
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS STYLE -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="nav1">
@@ -11,8 +17,19 @@
             <h2>GW</h2>
         </div>
 
-        <div class="second">
-            <textarea placeholder="Search GW or type a URL" id="" cols="30" rows="10"></textarea>
+        <!-- <div class="second">
+            <input type="text" placeholder="Search GW or input URL">
+            <i class="fa-solid fa-microphone"></i>
+            <i class="fa-solid fa-camera-retro"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+        </div> -->
+
+        <div class="input__wrapper">
+            <button class="realbox-icon-button" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <input type="search" placeholder="Search GW or input URL">
+            <button class="realbox-icon-button" title="Search by voice"><i class="fa-solid fa-microphone"></i></button>
+            <button class="realbox-icon-button" title="Search by image"><i class="fa-solid fa-camera-retro"></i></button>
         </div>
     </nav>
 </body>
